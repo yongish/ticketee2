@@ -45,3 +45,8 @@ group :development do
   gem 'spring'
 end
 
+gem "rspec-rails", "~> 3.2.1"
+
+group :test do
+  gem "capybara", "~> 2.4"
+end
