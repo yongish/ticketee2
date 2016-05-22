@@ -55,5 +55,7 @@ Rails.application.routes.draw do
   #   end
   root "projects#index"
 
-  resources :projects
+  resources :projects do
+    resources :tickets
+  end
 end
