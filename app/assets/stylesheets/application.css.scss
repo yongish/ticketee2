@@ -97,3 +97,7 @@ body {
 @media(max-width: 500px) {
   p { color: red }
 }
+
+#tickets li, #states li {
+  padding-bottom: 10px;
+}
